@@ -14,11 +14,11 @@ register_router.register('register', views.UserListCreate)
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Ecommerce API",
+      title="Company API",
       default_version='v0.1',
-      description="API для интернет магазина",
+      description="API для учета сотрудников",
       terms_of_service="https://www.google.com/policies/terms/",
-      contact=openapi.Contact(email="contact@snippets.local"),
+      contact=openapi.Contact(email="boke74@mail.ru"),
       license=openapi.License(name=""),
    ),
    public=True,
